@@ -1,0 +1,7 @@
+.navbar .navbar-nav .nav-item.logoutText {
+    display: flex;
+        align-items: baseline;
+    }
+    .navbar .navbar-nav .nav-item {
+    margin: 0px 10px;
+}

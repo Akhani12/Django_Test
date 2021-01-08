@@ -1,0 +1,16 @@
+{% load static %}
+{% include 'header.html' %}
+
+
+<section>
+    <div id="agileits-sign-in-page" class="sign-in-wrapper">
+        <div class="agileinfo_signin">
+            <form method="post">{% csrf_token %}
+                <h3 class="confirm_logout_info">Are you sure Want to delete "{{ object }}" ?</h3>
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+    </div>
+</section>
+
+{% include 'footer.html' %}

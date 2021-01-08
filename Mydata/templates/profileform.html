@@ -1,0 +1,57 @@
+{% load static %}
+{% load crispy_forms_tags %}
+{% include 'header.html' %}
+
+<!-- breadcrumbs -->
+<div class="w3layouts-breadcrumbs text-center">
+    <div class="container">
+        <span class="agile-breadcrumbs">
+            <a href='{% url "home" %}'><i class="fa fa-home home_1"></i></a> /
+			<span>Profile</span> /
+			<span>{{ user.username }}</span> /
+            <span>Edit</span>
+        </span>
+    </div>
+</div>
+<!-- //breadcrumbs -->
+<!---728x90--->
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags }} alert-dismissable" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                {{ message }}
+            </div>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+
+<div class="submit-ad main-grid-border">
+    <div class="container">
+        <h2 class="w3-head">Edit Profile</h2>
+        <div class="post-ad-form">
+            <form method="post" enctype="multipart/form-data"> {% csrf_token %}
+                {{ user_form|crispy }}
+                {{ profile_form.bio|as_crispy_field }}
+                {{ profile_form.location|as_crispy_field }}
+                {{ profile_form.tel|as_crispy_field }}
+                {{ profile_form.gender|as_crispy_field }}
+                {{ profile_form.birth_date|as_crispy_field }}
+                <div class="container-fluid">
+                    <div class="row">
+                        <p>{{ profile_form.img|as_crispy_field }}</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <input type="submit" value="Edit">
+                <div class="clearfix"></div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+{% include 'footer.html' %}

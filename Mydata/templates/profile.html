@@ -1,0 +1,84 @@
+{% load static %}
+{% include 'header.html' %}
+
+
+<!-- breadcrumbs -->
+<div class="w3layouts-breadcrumbs text-center">
+    <div class="container">
+        <span class="agile-breadcrumbs">
+            <a href='{% url "home" %}'><i class="fa fa-home home_1"></i></a> /
+			<span>Profile</span> /
+			<span>{{ user.username }}</span>
+        </span>
+    </div>
+</div>
+<!-- //breadcrumbs -->
+<!---728x90--->
+
+<!--single-page-->
+<div class="single-page main-grid-border">
+    <div class="container">
+        <div class="product-desc">
+            <div class="col-md-7 product-view">
+                <h1 style="text-indent: 65px;">{{ user.username }}</h1>
+                <div class="flexslider">
+                    <ul class="slides">
+                        {% if user.profile.img %}
+                            <li>
+                                <img src="{{ user.profile.img.url }}" style="border: 5px solid rgba(255, 76, 76, 0.53);" />
+                            </li>
+                        {% else %}
+                            <li>
+                                <img src="{% static 'images/user1.jpg' %}" style="border: 5px solid rgba(255, 76, 76, 0.53);" />
+                            </li>
+                        {% endif %}
+						</ul>
+					</div>
+					<!-- FlexSlider -->
+					  <script defer src='{% static "js/jquery.flexslider.js" %}'></script>
+
+						<script>
+					// Can also be used with $(document).ready()
+					$(window).load(function() {
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						controlNav: "thumbnails"
+					  });
+					});
+					</script>
+					<!-- //FlexSlider -->
+					<div class="product-details">
+						<h4 style="text-indent: 40px;"><i class="fa fa-map-marker"></i><span class="w3layouts-agileinfo"> </span> {{ user.profile.location }}</h4>
+                        <h4 style="text-indent: 80px;"><strong> Bio </strong> : {{ user.profile.bio }}
+                            <div class="clearfix"></div></h4>
+					  <a class="post-w3layouts-ad " href='' style="margin-left: 15px;">Delete Profile</a>
+
+                      <a class="post-w3layouts-ad " href='{% url "edit-profile" %}'>Edit Profile</a>
+					</div>
+				</div>
+				<div class="col-md-5 product-details-grid">
+					<div class="item-price">
+						<div class="product-price">
+							<p class="p-price">Gender</p>
+							<h3 class="rate">{{ user.profile.get_gender_display }}</h3>
+							<div class="clearfix"></div>
+						</div>
+						<div class="condition">
+							<p class="p-price">Contact</p>
+							<h4>{{ user.profile.tel }}</h4>
+							<div class="clearfix"></div>
+						</div>
+						<div class="itemtype">
+							<p class="p-price">Birth Date</p>
+							<h4>{{ user.profile.birth_date }}</h4>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+
+				</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>-
+	</div>
+
+{% include 'footer.html' %}
