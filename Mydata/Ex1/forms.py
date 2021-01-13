@@ -3,13 +3,18 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django.forms import ModelForm
 
-from Ex1.models import Contact, Profile
+from Ex1.models import Contact, User_Profile, User_Register
 
 
 class ContactForm(ModelForm):
     class Meta:
         model = Contact
         fields = ['name', 'email', 'subject', 'message']
+
+class regiform(ModelForm):
+    class Meta:
+        model = User_Register
+        fields = ['username', 'email', 'password1', 'password2']
 
 
 class UserForm(ModelForm):
@@ -28,5 +33,6 @@ class NewUserForm(UserCreationForm):
 
 class ProfileForm(ModelForm):
     class Meta:
-        model = Profile
-        fields = ['bio', 'location', 'tel', 'gender', 'birth_date', 'img']
+        birth_date = forms.DateField(input_formats=['%d, %B, %Y'])
+        model = User_Profile
+        fields = ['bio', 'location', 'tel', 'gender', 'birth_date', 'img','prof']

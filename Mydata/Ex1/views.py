@@ -1,19 +1,17 @@
-import datetime
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.forms import UserCreationForm
 from django.core.mail import send_mail
-from django.http import HttpResponseRedirect, HttpResponse
-from django.shortcuts import render, redirect, get_object_or_404
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
 from django.contrib import messages
-from .forms import ContactForm, NewUserForm, UserForm, ProfileForm
+from .forms import ContactForm, UserForm, ProfileForm, regiform
 from MyOne import settings
 from django.contrib.auth.models import User
 from django.db import transaction
 
+
 def Home(request):
-    today = datetime.datetime.now().date()
-    return render(request, "index.html", {"today": today})
+    return render(request, "index.html", {})
 
 
 def Products(request):
@@ -28,9 +26,7 @@ def Contact(request):
     cform = ContactForm(request.POST)
     if request.method == 'POST':
         if cform.is_valid():
-            contact_name = cform.cleaned_data['name']
             contact_email = cform.cleaned_data['email']
-            print(contact_email)
             subject = cform.cleaned_data['subject']
             message = cform.cleaned_data['message']
             cform.save()
@@ -43,11 +39,6 @@ def Contact(request):
             cform = ContactForm()
     template = 'contact.html'
     return render(request, template, {'form': cform})
-
-
-def Profile(request):
-    template = 'profile.html'
-    return render(request, template, {})
 
 
 def Login(request):
@@ -75,49 +66,57 @@ def Login(request):
 
 def Register(request):
     if request.method == "POST":
-        form = UserCreationForm(request.POST)
+        rform = regiform(request.POST)
+        if rform.is_valid():
+            u_name = rform.cleaned_data['username']
+            u_email = rform.cleaned_data['email']
+            u_password = rform.cleaned_data['password1']
 
-        if form.is_valid():
-            form.save()
+            User.objects.create_user(u_name, u_email, u_password)
+            user = authenticate(username=u_name, password=u_password)
+            login(request, user, backend='django.contrib.auth.backends.ModelBackend')
+
             return redirect('/home')
+        messages.success(
+            request,
+            "You're now a user! You've been signed in, too."
+        )
+        print(rform.errors)
 
-    form = NewUserForm
+    form = regiform
     return render(request=request, template_name="register.html", context={"register_form": form})
 
 
 def Logout(request):
     logout(request)
-    return redirect('/home')
+    messages.success(request, "You've been signed out. Come back soon!")
+    return redirect('/login')
 
 
-@login_required
+@login_required(login_url="login")
+def Profile(request):
+    template = 'profile.html'
+    return render(request, template, {})
+
+
+@login_required(login_url="login")
 @transaction.atomic
 def EditProfile(request):
     if request.method == 'POST':
         user_form = UserForm(request.POST or None, request.FILES or None, instance=request.user)
-        profile_form = ProfileForm(request.POST or None, request.FILES or None, instance=request.user.profile)
-        if user_form.is_valid() and profile_form.is_valid():
-            user_form.save()
-            profile_form.save()
+        profile_form = ProfileForm(request.POST or None, request.FILES or None, instance=request.user.user_profile)
+        if profile_form.is_valid():
+            user_form.save(commit=True)
+            profile_form.save(commit=True)
+
             messages.success(request, 'Your profile was successfully updated!')
-            return redirect('profile')
+            return redirect('/home')
         else:
             messages.error(request, 'Please correct the error below.')
     else:
         user_form = UserForm(instance=request.user)
-        profile_form = ProfileForm(instance=request.user.profile)
+        profile_form = ProfileForm(instance=request.user.user_profile)
     return render(request, 'profileform.html', {
         'user_form': user_form,
         'profile_form': profile_form
     })
-#
-#
-# DeleteView
-@login_required
-def deleteProfile(request, pk):
-    template = 'profiledelete.html'
-    profile = get_object_or_404(User, pk=pk)
-    if request.method == 'POST':
-        profile.delete()
-        return redirect('home')
-    return render(request, template, {'object': profile})

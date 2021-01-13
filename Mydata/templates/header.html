@@ -70,7 +70,7 @@ https://templatemo.com/tm-546-sixteen-clothing
               {% if user.is_authenticated %}
                 <li class="nav-item logoutText">
                   <a class="nav-link" href="{% url 'profile' %}">{{ user.username }}</a><a href="{% url 'logout' %}" class="filled-button">Logout</a>
-                <7/li>
+                </li>
               {% else %}
                 <li class="nav-item">
                   <a class="nav-link" href="{% url 'login' %}">Login/Sign In</a>

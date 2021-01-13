@@ -1,7 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa68b8cf-021e-4283-919f-b5a278238964" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="fa68b8cf-021e-4283-919f-b5a278238964" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/migrations/0002_profile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/flex-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/flex-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/fontawesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/logout.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/logout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/owl.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/owl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/templatemo-sixteen.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/templatemo-sixteen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/css/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/util.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/download.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/download.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/Flaticon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/Flaticon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/Flaticon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/Flaticon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/Flaticon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/Flaticon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/Flaticon.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/Flaticon.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/flaticon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/flexslider-icon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/flexslider-icon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/flexslider-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/flexslider-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/flexslider-icon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/flexslider-icon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/flexslider-icon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/flexslider-icon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/slick.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/slick.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/slick.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/slick.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/slick.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/slick.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/slick.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/slick.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/themify.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/themify.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/themify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/themify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/themify.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/themify.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/fonts/themify.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/fonts/themify.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/icons8-jumper-100.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/icons8-jumper-100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/about-heading.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about-heading.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/client-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/client-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/contact-heading.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/contact-heading.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/feature-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/feature-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/img-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/img-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/more-info.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/more-info.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/product_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/product_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/product_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/product_04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product_04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/product_05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product_05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/product_06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product_06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/products-heading.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/products-heading.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/services-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/services-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/slide_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/slide_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/slide_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/slide_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/slide_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/slide_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/team_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/team_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/team_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/team_04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team_04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/team_05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team_05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/images/team_06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team_06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/js/accordions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/accordions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/js/isotope.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/isotope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/js/owl.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/owl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/js/slick.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/slick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/animate/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/animate/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/css-hamburgers/hamburgers.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/jquery/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/jquery/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/jquery/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/jquery/jquery.slim.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/jquery/jquery.slim.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/select2/select2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/select2/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/select2/select2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/static/vendor/tilt/tilt.jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/vendor/tilt/tilt.jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyOne/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyOne/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyOne/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyOne/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/templates/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profileform.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profileform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +136,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -60,6 +186,7 @@
       </ProjectWorkspaceSettings>
     </option>
   </component>
+  <component name="JupyterTrust" id="44d76c11-70ab-4362-96ca-5d24004127f0" />
   <component name="ProjectId" id="1eiadMZAdY4treVsVSyzYLWOX4r" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -76,25 +203,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Kleider-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Mydata\templates" />
+      <recent name="D:\PycharmProjects\Mydata\static" />
+      <recent name="D:\PycharmProjects\Mydata\static\js" />
+      <recent name="D:\PycharmProjects\Mydata\static\images" />
       <recent name="C:\Users\DELL\PycharmProjects\Mydata\templates" />
-      <recent name="C:\Users\DELL\PycharmProjects\Mydata\Ex1\static" />
-      <recent name="C:\Users\DELL\PycharmProjects\Mydata\Ex1\static\css" />
-      <recent name="C:\Users\DELL\PycharmProjects\Mydata\Ex1\static\vendor" />
-      <recent name="C:\Users\DELL\PycharmProjects\Mydata" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Mydata\static\css" />
+      <recent name="D:\PycharmProjects\Mydata\templates" />
+      <recent name="D:\PycharmProjects\Mydata" />
       <recent name="C:\Users\DELL\PycharmProjects\Mydata\Ex1\static\fonts" />
       <recent name="C:\Users\DELL\PycharmProjects\Mydata\Ex1\static\css" />
-      <recent name="C:\Users\DELL\PycharmProjects\Mydata\Ex1" />
-      <recent name="C:\Users\DELL\PycharmProjects\Mydata" />
-      <recent name="C:\Users\DELL\PycharmProjects\Mydata\Ex1\static" />
     </key>
   </component>
   <component name="RunManager" selected="Python.manage">
@@ -110,6 +237,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hii.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -131,6 +259,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -152,6 +281,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -161,8 +291,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Mydata" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\DELL\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sd" />
         <item itemvalue="Python.Hii" />
       </list>
     </recent_temporary>
@@ -203,6 +356,7 @@
       <workItem from="1595504792092" duration="712000" />
       <workItem from="1595506734475" duration="1212000" />
       <workItem from="1595573833503" duration="54000" />
+      <workItem from="1610522867164" duration="6072000" />
     </task>
     <task id="LOCAL-00001" summary="Create README.md">
       <created>1609318696909</created>
@@ -250,7 +404,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -273,6 +427,44 @@
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1534" height="440" key="DebuggerActiveHint" timestamp="1610528522284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1534" height="440" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1610528522284" />
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1610530640008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610530640008" />
+    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1610530640008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610530640008" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1610530640008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610530640008" />
+    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1610530640008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610530640008" />
+    <state width="1493" height="237" key="GridCell.Tab.1.bottom" timestamp="1610530640008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610530640008" />
+    <state width="1493" height="237" key="GridCell.Tab.1.center" timestamp="1610530640008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1610530640008" />
+    <state width="1493" height="237" key="GridCell.Tab.1.left" timestamp="1610530640008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1610530640008" />
+    <state width="1493" height="237" key="GridCell.Tab.1.right" timestamp="1610530640008">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1610530640008" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -287,5 +479,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Mydata$manage.coverage" NAME="manage Coverage Results" MODIFIED="1610527053089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
