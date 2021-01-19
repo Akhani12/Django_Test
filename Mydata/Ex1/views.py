@@ -76,7 +76,7 @@ def Register(request):
             user = authenticate(username=u_name, password=u_password)
             login(request, user, backend='django.contrib.auth.backends.ModelBackend')
 
-            return redirect('/home')
+            return redirect('/edit-profile')
         messages.success(
             request,
             "You're now a user! You've been signed in, too."
@@ -89,7 +89,7 @@ def Register(request):
 
 def Logout(request):
     logout(request)
-    messages.success(request, "You've been signed out. Come back soon!")
+    # messages.success(request, "You've been signed out. Come back soon!")
     return redirect('/login')
 
 

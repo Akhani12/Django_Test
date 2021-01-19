@@ -1,8 +1,5 @@
-import os
-import random
 from django.db.models.signals import post_save
 from django.contrib.auth.models import User
-from django.core.validators import RegexValidator
 from django.db import models
 from django.dispatch import receiver
 
@@ -30,8 +27,7 @@ class User_Register(models.Model):
 
 
 class User_Profile(models.Model):
-    # phone_regex = RegexValidator(regex=r'^+?1?d{9,15}$',
-    #                              message="Enter valid phone number must be entered in the format: '+9999999999'.")
+
     GENDER_CHOICES = (
         ('M', 'Male',),
         ('F', 'Female',),
@@ -45,7 +41,7 @@ class User_Profile(models.Model):
     gender = models.CharField(max_length=1, choices=GENDER_CHOICES, )
     birth_date = models.DateField(null=True, blank=True)
     img = models.ImageField(upload_to=settings.MEDIA_ROOT, null=True, blank=True)
-    prof = models.CharField(max_length=500, blank=True,null=True)
+    prof = models.CharField(max_length=500, blank=True, null=True)
 
     def __str__(self):
         return self.user.username
@@ -58,3 +54,17 @@ def create_user_profile(sender, instance, created, **kwargs):
 
 
 post_save.connect(create_user_profile, sender=User)
+
+
+class Product(models.Model):
+    product_id = models.AutoField
+    product_name = models.CharField(max_length=100)
+    category = models.CharField(max_length=100,default="")
+    subcategory = models.CharField(max_length=100,default="")
+    price = models.IntegerField(default=0)
+    description = models.CharField(max_length=200)
+    date = models.DateField()
+    image = models.ImageField(upload_to=settings.MEDIA_ROOT, null=True, blank=True)
+
+    def __str__(self):
+        return self.product_name
